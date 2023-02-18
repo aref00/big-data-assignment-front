@@ -1,7 +1,13 @@
+@import url("../node_modules/tayeh-react/lib/style.css");
+@import url("../node_modules/tayeh-react/lib/input.css");
 .App {
-  text-align: center;
+	
 }
-
+.content {
+	margin: auto;
+	min-height: 100vh;
+	max-width: 1200px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,7 +21,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
